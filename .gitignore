@@ -1,0 +1,19 @@
+# Carpetas de PyInstaller y compilación
+build/
+dist/
+*.spec
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales (si usas)
+venv/
+env/
+
+# Archivos generados (para no subir los pagarés de tus clientes por error)
+Pagares_*.docx
+temp_*.docx
+
+# Archivos de sistema
+.DS_Store
