@@ -69,15 +69,17 @@ El sistema utiliza `docxtpl` (Jinja2 tags) para rellenar el documento. Asegúrat
 | `{{ cuota_actual }}` | Número de la cuota actual |
 
 **📦 Crear Ejecutable (.EXE)**
+
 Para distribuir la aplicación en computadoras sin Python, utiliza PyInstaller.
 
 IMPORTANTE: Se debe usar el comando --collect-all para incluir las dependencias ocultas de docxcompose.
 
 Ejecuta en tu terminal:
 
-Bash
+    ```bash
+    pyinstaller --noconsole --onefile --collect-all "docxcompose" --name "SistemaPagares" GeneradorPagares.py
+    ```
 
-pyinstaller --noconsole --onefile --collect-all "docxcompose" --name "SistemaPagares" GeneradorPagares.py
 El archivo final estará en la carpeta dist/.
 
 **📝 Licencia**
