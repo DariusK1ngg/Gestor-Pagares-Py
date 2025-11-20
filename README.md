@@ -74,8 +74,7 @@ Para distribuir la aplicación en computadoras sin Python, utiliza PyInstaller.
 
 IMPORTANTE: Se debe usar el comando --collect-all para incluir las dependencias ocultas de docxcompose.
 
-Ejecuta en tu terminal:
-
+1.  **Ejecuta en tu terminal:**
     ```bash
     pyinstaller --noconsole --onefile --collect-all "docxcompose" --name "SistemaPagares" GeneradorPagares.py
     ```
