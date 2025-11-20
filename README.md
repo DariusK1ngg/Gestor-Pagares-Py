@@ -25,8 +25,8 @@ Aplicación de escritorio profesional desarrollada en Python para automatizar la
 ---
 
 ## 📷 Capturas de Pantalla
-*(Aquí puedes subir una imagen de tu programa funcionando a la carpeta del proyecto y enlazarla así:)*
-`![Captura del Programa](screenshot.png)`
+
+![Captura del Programa](screenshot.png)
 
 ---
 
