@@ -68,16 +68,7 @@ El sistema utiliza `docxtpl` (Jinja2 tags) para rellenar el documento. Asegúrat
 | `{{ fecha_venc }}` | Fecha de vencimiento de la cuota |
 | `{{ cuota_actual }}` | Número de la cuota actual |
 
-**Bloque Condicional para Codeudor:**
-Para que el garante desaparezca si no se usa, usa esta estructura en el Word:
-```jinja2
-{% if hay_codeudor %}
-CODEUDOR: {{ codeudor_nombre }}
-C.I.: {{ codeudor_ci }}
-...
-{% endif %}
-
-📦 Crear Ejecutable (.EXE)
+**📦 Crear Ejecutable (.EXE)**
 Para distribuir la aplicación en computadoras sin Python, utiliza PyInstaller.
 
 IMPORTANTE: Se debe usar el comando --collect-all para incluir las dependencias ocultas de docxcompose.
@@ -89,5 +80,5 @@ Bash
 pyinstaller --noconsole --onefile --collect-all "docxcompose" --name "SistemaPagares" GeneradorPagares.py
 El archivo final estará en la carpeta dist/.
 
-📝 Licencia
+**📝 Licencia**
 Este proyecto es de uso libre para fines educativos y comerciales. Desarrollado con Python y mucha lógica financiera. 🐍
