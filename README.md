@@ -81,5 +81,4 @@ IMPORTANTE: Se debe usar el comando --collect-all para incluir las dependencias 
 
 El archivo final estará en la carpeta dist/.
 
-**📝 Licencia**
-Este proyecto es de uso libre para fines educativos y comerciales. Desarrollado con Python y mucha lógica financiera. 🐍
+**By Dario Avalos💻**
